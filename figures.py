@@ -371,15 +371,15 @@ def figure_2(data, method='laplacian', panels='all', show=True, save=False,
             # optimal_ve_violin
             plt.figure(figsize=(6, 3))
             sns.violinplot(data=opti_ve_sorted,
-                        palette=np.array(colormap.hex_colors)[c_nb],
-                        orient='v')
+                           palette=np.array(colormap.hex_colors)[c_nb],
+                           orient='v')
             plt.ylabel("t_opti")
             plt.xticks(np.arange(0, 7), ve_names_sorted)
             if method == "laplacian":
                 y_min = np.amin(data['t_points'])
                 y_max = np.amax(data['t_points'])
                 plt.yticks([y_min, y_max],
-                        [round(y_min, 0), round(y_max, 0)])
+                           [round(y_min, 0), round(y_max, 0)])
 
             if save:
                 figure_name = 'optimal_ve_violin'
@@ -1140,7 +1140,7 @@ def check_requirements(data, required_entries):
     if requirements is False:
         print(('panel not created. The data dictionary is missing'
                'required entries. The required entries are: ' +
-               ', '.join(required_entries))
+               ', '.join(required_entries)))
 
     return requirements
 

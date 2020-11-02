@@ -104,14 +104,14 @@ specify["labels"] = ["posterior cingulate",
                      "insula"]
 
 # Make a "figures/" folder to store the saved figures.
-if not os.path.exists("folder"):
-    os.makedirs("folder")
+if not os.path.exists("figures"):
+    os.makedirs("figures")
 
 # Plot figure 1 and save the generated elements in the 'figures/fig1' folder
 from figures import figure_1
 
-if not os.path.exists("folder/fig1"):
-    os.makedirs("folder/fig1")
+if not os.path.exists("figures/fig1"):
+    os.makedirs("figures/fig1")
 
 figure_1(LAU1000, specify, [40, 60, 75], [25, 40, 60, 75],
          save=True, show=False, save_path="figures/fig1")
@@ -119,16 +119,16 @@ figure_1(LAU1000, specify, [40, 60, 75], [25, 40, 60, 75],
 # Plot figure 2 and save the generated elements in the 'figures/fig2' folder
 from figures import figure_2
 
-if not os.path.exists("folder/fig2"):
-    os.makedirs("folder/fig2")
+if not os.path.exists("figures/fig2"):
+    os.makedirs("figures/fig2")
 
 figure_2(LAU1000, save=True, show=False, save_path='figures/fig2')
 
 # Plot figure 4 and save the generated elements in the 'figures/fig4' folder
 from figures import figure_4
 
-if not os.path.exists("folder/fig4"):
-    os.makedirs("folder/fig4")
+if not os.path.exists("figures/fig4"):
+    os.makedirs("figures/fig4")
 
 figure_4(LAU1000, specify, [25, 49, 60, 75], save=True, show=False,
          save_path='figures/fig4')
@@ -136,7 +136,7 @@ figure_4(LAU1000, specify, [25, 49, 60, 75], save=True, show=False,
 # Plot figure 5 and save the generated elements in the 'figures/fig5' folder
 from figures import figure_5
 
-if not os.path.exists("folder/fig5"):
-    os.makedirs("folder/fig5")
+if not os.path.exists("figures/fig5"):
+    os.makedirs("figures/fig5")
 
 figure_5(LAU1000, save=True, show=False, save_path='figures/fig5')
