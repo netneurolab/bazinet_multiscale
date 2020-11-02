@@ -6,7 +6,7 @@ This repository contains scripts and functions to reproduce the results presente
 
 [main_scripy.py](main_script.py) contains a script that allows anyone to replicate the analysis described in the paper by simply running it. This script uses [load_data.py](load_data.py) to load the required data and stores this data in a python dictionary. It then computes the main results and creates the figures presented in the paper.
 
-A user can load it's own data and modify this main script accordingly to reproduce similar analyses using their own dataset.
+A user can load its own data and modify this main script accordingly to reproduce similar analyses using their own dataset.
 
 ## The data
 
@@ -16,14 +16,14 @@ The [data](data) folder contains the data that was used to perform the analysis 
 
 - 'sc' : Adjacency matrix of the structural connectome [(n, n) ndarray].
 - 'fc' : Adjacency matrix of the functional connectome [(n, n) ndarray].
-- 'coords' : Coordinates of the parcels of our connectomes. [(n, 3) ndarray]
+- 'coords' : Coordinates of the parcels of our connectomes. [(n, 3) ndarray].
 - 'rsn' : ndarray vector of resting-state network affiliation of the nodes
-    of our networks
+    of our networks.
 - 'rsn_names' : List of names for the 7 resting-state networks.
 - 've' : ndarray vector of von Economo class affiliation of the nodes of our
     networks.
 - 've_names' : List of names for the 7 von-economo classes.
-- 'sc_ci' : Multiscale parcellations of the n nodes of the structural connectomes into communities. Each parcellation can be stored in an individual ndarray (n,).
+- 'sc_ci' : Multiscale parcellations of the n nodes of the structural connectomes into communities. Each parcellation can be stored in an individual numpy array.
 
 ### Required for plotting results on the surface of the brain
 
