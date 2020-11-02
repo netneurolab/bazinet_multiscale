@@ -1,0 +1,8 @@
+numpy
+scipy
+tqdm
+matplotlib
+seaborn
+netneurotools
+palettable
+setuptools
