@@ -6,7 +6,7 @@ This repository contains scripts and functions to reproduce the results presente
 
 [main_scripy.py](main_script.py) contains a script that allows anyone to replicate the analysis described in the paper by simply running it. This script uses [load_data.py](load_data.py) to load the required data and stores this data in a python dictionary. It then computes the main results and creates the figures presented in the paper.
 
-A user can load its own data and modify this main script accordingly to reproduce similar analyses using their own dataset.
+Users can load their own data and modify this main script accordingly to reproduce similar analyses using their own dataset.
 
 ## The data
 
