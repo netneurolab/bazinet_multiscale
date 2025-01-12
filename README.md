@@ -1,6 +1,8 @@
 # Multiscale communication in cortico-cortical networks
 
-This repository contains scripts and functions to reproduce the results presented in "[Multiscale communication in cortico-cortical networks](<https://www.biorxiv.org/content/10.1101/2020.10.02.323030v1>)".
+This repository contains scripts and functions to reproduce the results presented in:
+
+Bazinet, V., Vos de Wael, R., Hagmann, P., Bernhardt, B. C., & Misic, B. (2021). Multiscale communication in cortico-cortical networks. _NeuroImage_, _243_, 118546. [https://doi.org/10.1016/j.neuroimage.2021.118546](https://doi.org/10.1016/j.neuroimage.2021.118546)
 
 ## The main script
 
